@@ -18,7 +18,7 @@
             </p>
         </div>
 
-        <!-- Stats Numbers Row (Large text layout) -->
+        <!-- Stats Numbers Row -->
         <div class="flex justify-center mb-16">
             <div class="bg-white/5 border border-white/10 rounded-2xl p-6 text-center backdrop-blur-md max-w-xs w-full">
                 <p class="text-4xl sm:text-5xl font-black text-brand-green">24/7</p>

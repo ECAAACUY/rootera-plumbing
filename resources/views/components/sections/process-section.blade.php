@@ -82,7 +82,7 @@
 
         <!-- Bottom CTA -->
         <div class="text-center mt-16">
-            <a href="https://wa.me/628123456789" target="_blank" class="inline-flex items-center justify-center bg-brand-green hover:bg-brand-green-hover text-white text-base font-bold px-8 py-4 rounded-lg transition-all shadow-lg hover:shadow-brand-green/30 hover:-translate-y-0.5">
+            <a href="https://wa.me/6281385404000?text=Halo%20Rootera%20Plumbing%2C%20saya%20ingin%20menjadwalkan%20kunjungan%20survei%20dan%20pemeriksaan%20pipa." target="_blank" class="inline-flex items-center justify-center bg-brand-green hover:bg-brand-green-hover text-white text-base font-bold px-8 py-4 rounded-lg transition-all shadow-lg hover:shadow-brand-green/30 hover:-translate-y-0.5">
                 <i data-lucide="phone" class="w-5 h-5 mr-2"></i>
                 Hubungi Kami Sekarang
             </a>

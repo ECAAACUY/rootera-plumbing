@@ -11,7 +11,7 @@
                 
                 <!-- Main Image Container -->
                 <div class="relative rounded-2xl overflow-hidden shadow-xl border border-gray-100">
-                    <img src="{{ asset('images/service_overview_hands.png') }}" alt="Plumber repairing pipes under sink" class="w-full h-auto object-cover aspect-[4/3] sm:aspect-[16/10]">
+                    <img src="{{ asset('images/service.png') }}" alt="Plumber repairing pipes under sink" class="w-full h-auto object-cover aspect-[4/3] sm:aspect-[16/10]">
                     
                     <!-- Floating Badge: Experience -->
                     <div class="absolute bottom-6 right-6 bg-brand-navy text-white px-6 py-3 rounded-xl shadow-lg border border-white/10 flex items-center gap-3">
@@ -47,7 +47,7 @@
                     Setiap masalah kebocoran atau saluran tersumbat ditangani dengan analisis menyeluruh agar perbaikan bersifat permanen dan tidak berulang.
                 </p>
 
-                <!-- Checkmarks Grid (2x2 on desktop, stacked on mobile) -->
+                <!-- Checkmarks Grid -->
                 <div class="grid sm:grid-cols-2 gap-4 pt-2">
                     <div class="flex items-start gap-3">
                         <div class="mt-1 bg-brand-green/10 p-1.5 rounded-full text-brand-green">
@@ -92,7 +92,7 @@
 
                 <!-- Section CTA Button -->
                 <div class="pt-4">
-                    <a href="https://wa.me/628123456789" target="_blank" class="inline-flex items-center bg-brand-navy hover:bg-brand-navy-light text-white text-sm font-bold px-6 py-3.5 rounded-lg transition-all shadow-md">
+                    <a href="https://wa.me/6281385404000?text=Halo%20Rootera%20Plumbing%2C%20saya%20tertarik%20dengan%20layanan%20Anda%20dan%20ingin%20tanya-tanya%20mengenai%20garansi%20pekerjaan." target="_blank" class="inline-flex items-center bg-brand-navy hover:bg-brand-navy-light text-white text-sm font-bold px-6 py-3.5 rounded-lg transition-all shadow-md">
                         <i data-lucide="message-square" class="w-4 h-4 mr-2 text-brand-green"></i>
                         Hubungi via WhatsApp
                     </a>

@@ -18,7 +18,7 @@
         <!-- 6-Cards Grid Layout -->
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             
-            <!-- Card 1: Deteksi Kebocoran -->
+            <!-- Card 1: Pelancaran Saluran Mampet -->
             <div class="bg-white rounded-2xl p-8 shadow-sm hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 border border-gray-100/50 flex flex-col justify-between group">
                 <div class="space-y-6">
                     <!-- Icon Box -->
@@ -38,7 +38,7 @@
                 </div>
             </div>
 
-            <!-- Card 2: Saluran Mampet -->
+            <!-- Card 2: Pembersihan & Perawatan Drainase -->
             <div class="bg-white rounded-2xl p-8 shadow-sm hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 border border-gray-100/50 flex flex-col justify-between group">
                 <div class="space-y-6">
                     <!-- Icon Box -->
@@ -58,7 +58,7 @@
                 </div>
             </div>
 
-            <!-- Card 3: Instalasi Pipa Baru -->
+            <!-- Card 3: Perbaikan & Pencegahan Kebocoran -->
             <div class="bg-white rounded-2xl p-8 shadow-sm hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 border border-gray-100/50 flex flex-col justify-between group">
                 <div class="space-y-6">
                     <!-- Icon Box -->
@@ -70,6 +70,7 @@
                         <h3 class="text-lg font-bold text-brand-navy">Perbaikan & Pencegahan Kebocoran</h3>
                         <p class="text-xs sm:text-sm text-brand-gray leading-relaxed font-normal">
                             Layanan yang bertujuan memperbaiki kebocoran pada sistem perpipaan serta melakukan tindakan pencegahan agar kebocoran tidak terjadi kembali, sehingga mengurangi pemborosan air dan kerusakan pada bangunan.
+                        </p>
                     </div>
                 </div>
                 <div class="pt-6 border-t border-gray-50 mt-6 flex items-center text-xs font-bold text-brand-green group-hover:translate-x-1.5 transition-transform">
@@ -77,7 +78,7 @@
                 </div>
             </div>
 
-            <!-- Card 4: Perbaikan Pompa Air -->
+            <!-- Card 4: Pemeriksaan Berkala & Pelaporan -->
             <div class="bg-white rounded-2xl p-8 shadow-sm hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 border border-gray-100/50 flex flex-col justify-between group">
                 <div class="space-y-6">
                     <!-- Icon Box -->
@@ -89,6 +90,7 @@
                         <h3 class="text-lg font-bold text-brand-navy">Pemeriksaan Berkala dan Pelaporan</h3>
                         <p class="text-xs sm:text-sm text-brand-gray leading-relaxed font-normal">
                             Kegiatan inspeksi rutin terhadap kondisi sistem perpipaan dan drainase yang disertai dengan laporan hasil pemeriksaan. Laporan ini membantu pelanggan mengetahui kondisi sistem dan rekomendasi tindakan yang diperlukan.
+                        </p>
                     </div>
                 </div>
                 <div class="pt-6 border-t border-gray-50 mt-6 flex items-center text-xs font-bold text-brand-green group-hover:translate-x-1.5 transition-transform">
@@ -96,7 +98,7 @@
                 </div>
             </div>
 
-            <!-- Card 5: Pemasangan Sanitasi -->
+            <!-- Card 5: Inspeksi Saluran Pipa Kamera -->
             <div class="bg-white rounded-2xl p-8 shadow-sm hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 border border-gray-100/50 flex flex-col justify-between group">
                 <div class="space-y-6">
                     <!-- Icon Box -->
@@ -116,7 +118,7 @@
                 </div>
             </div>
 
-            <!-- Card 6: Perawatan Berkala -->
+            <!-- Card 6: Perawatan Sistem Perpipaan -->
             <div class="bg-white rounded-2xl p-8 shadow-sm hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 border border-gray-100/50 flex flex-col justify-between group">
                 <div class="space-y-6">
                     <!-- Icon Box -->
@@ -128,6 +130,7 @@
                         <h3 class="text-lg font-bold text-brand-navy">Perawatan Sistem Perpipaan</h3>
                         <p class="text-xs sm:text-sm text-brand-gray leading-relaxed font-normal">
                           Merupakan layanan pemeliharaan jaringan pipa agar tetap berfungsi dengan baik, lancar, dan tahan lama. Kegiatan meliputi pengecekan kondisi pipa, sambungan, katup, serta perbaikan jika ditemukan kerusakan.
+                        </p>
                     </div>
                 </div>
                 <div class="pt-6 border-t border-gray-50 mt-6 flex items-center text-xs font-bold text-brand-green group-hover:translate-x-1.5 transition-transform">

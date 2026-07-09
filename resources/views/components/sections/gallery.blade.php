@@ -18,7 +18,7 @@
         <!-- Gallery Grid Layout -->
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             
-            <!-- Item 1: Pemasangan Jalur Pipa -->
+            <!-- Item 1 -->
             <div class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col">
                 <div class="relative overflow-hidden aspect-[4/3]">
                     <img src="{{ asset('images/Gallery_Satu.png') }}" alt="Pemasangan Jalur Pipa Air Bersih" class="w-full h-full object-cover transform hover:scale-105 transition-transform duration-500">
@@ -32,7 +32,7 @@
                 </div>
             </div>
 
-            <!-- Item 2: Penggantian Wastafel Trap -->
+            <!-- Item 2 -->
             <div class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col">
                 <div class="relative overflow-hidden aspect-[4/3]">
                     <img src="{{ asset('images/Gallery_Dua.png') }}" alt="Perbaikan Saluran Pembuangan Wastafel" class="w-full h-full object-cover transform hover:scale-105 transition-transform duration-500">
@@ -46,7 +46,7 @@
                 </div>
             </div>
 
-            <!-- Item 3: Deteksi Kebocoran Pipa Dinding -->
+            <!-- Item 3 -->
             <div class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col">
                 <div class="relative overflow-hidden aspect-[4/3]">
                     <img src="{{ asset('images/Gallery_Tiga.png') }}" alt="Deteksi Kebocoran Pipa Air Bersih" class="w-full h-full object-cover transform hover:scale-105 transition-transform duration-500">
@@ -56,6 +56,7 @@
                     <h3 class="text-base font-bold text-brand-navy">Inspeksi & Deteksi Kebocoran Pipa</h3>
                     <p class="text-xs sm:text-sm text-brand-gray leading-relaxed font-normal">
                         Pemeriksaan titik kebocoran menggunakan alat deteksi khusus untuk menemukan sumber masalah secara akurat tanpa pembongkaran yang berlebihan.
+                    </p>
                 </div>
             </div>
 

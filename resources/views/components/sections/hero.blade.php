@@ -1,21 +1,21 @@
 <!-- HERO SECTION COMPONENT -->
-<section class="relative bg-brand-navy text-white overflow-hidden">
+<section class="relative bg-[#0A1D30] text-white overflow-hidden">
     <!-- Subtle Background Pattern/Glow -->
     <div class="absolute inset-0 opacity-10 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-brand-green via-transparent to-transparent"></div>
 
     <!-- 1. HEADER & NAVIGATION -->
-    <header class="relative z-50 border-b border-white/10">
+    <header class="relative z-50 border-b border-white/10 bg-[#0A1D30]">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex items-center justify-between h-20">
-                <!-- Brand Logo (With White Background Container as requested) -->
+                <!-- Brand Logo with White Background Container -->
                 <div class="flex-shrink-0">
-                    <a href="#" class="flex items-center bg-white px-4 py-2 rounded-lg shadow-md hover:opacity-90 transition-all">
+                    <a href="{{ url('/') }}" class="flex items-center bg-white px-4 py-2 rounded-lg shadow-md hover:opacity-90 transition-all">
                         <img src="{{ asset('images/Logo.png') }}" alt="Rootera Plumbing Logo" class="h-10 sm:h-12 w-auto object-contain">
                     </a>
                 </div>
 
                 <!-- Desktop Navigation Menu -->
-                <nav class="hidden md:flex space-x-8 text-sm font-medium">
+                <nav class="hidden md:flex space-x-8 text-sm font-medium text-white">
                     <a href="#layanan" class="hover:text-brand-green transition-colors py-2">Layanan Utama</a>
                     <a href="#mengapa-kami" class="hover:text-brand-green transition-colors py-2">Mengapa Kami</a>
                     <a href="#alur-kerja" class="hover:text-brand-green transition-colors py-2">Alur Kerja</a>
@@ -26,13 +26,13 @@
 
                 <!-- Header CTA Button -->
                 <div class="hidden sm:block">
-                    <a href="https://wa.me/628123456789" target="_blank" class="inline-flex items-center bg-brand-green hover:bg-brand-green-hover text-white text-sm font-semibold px-5 py-2.5 rounded-lg transition-all shadow-lg hover:shadow-brand-green/20 hover:-translate-y-0.5">
+                    <a href="https://wa.me/6281385404000?text=Halo%20Rootera%20Plumbing%2C%20saya%20ingin%20berkonsultasi%20mengenai%20perbaikan%20saluran%20air%20atau%20pipa%20bocor." target="_blank" class="inline-flex items-center bg-brand-green hover:bg-brand-green-hover text-white text-sm font-semibold px-5 py-2.5 rounded-lg transition-all shadow-lg hover:shadow-brand-green/20 hover:-translate-y-0.5">
                         <i data-lucide="phone" class="w-4 h-4 mr-2"></i>
                         Hubungi Kami
                     </a>
                 </div>
 
-                <!-- Mobile Menu Button (Toggle handled via simple Alpine-like vanilla CSS/JS if needed, or keeping it clean) -->
+                <!-- Mobile Menu Button -->
                 <div class="md:hidden">
                     <button id="mobile-menu-btn" class="text-white hover:text-brand-green focus:outline-none p-2" aria-label="Toggle Menu">
                         <i data-lucide="menu" class="w-6 h-6"></i>
@@ -41,15 +41,15 @@
             </div>
         </div>
 
-        <!-- Mobile Navigation Menu (Hidden by default, toggled with JS) -->
-        <div id="mobile-menu" class="hidden md:hidden bg-brand-navy-dark border-b border-white/10 px-4 pt-2 pb-4 space-y-1">
+        <!-- Mobile Navigation Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-[#0A1D30] border-b border-white/10 px-4 pt-2 pb-4 space-y-1">
             <a href="#layanan" class="block px-3 py-2 rounded-md text-base font-medium hover:bg-brand-navy-light hover:text-brand-green">Layanan Utama</a>
             <a href="#mengapa-kami" class="block px-3 py-2 rounded-md text-base font-medium hover:bg-brand-navy-light hover:text-brand-green">Mengapa Kami</a>
             <a href="#alur-kerja" class="block px-3 py-2 rounded-md text-base font-medium hover:bg-brand-navy-light hover:text-brand-green">Alur Kerja</a>
             <a href="#galeri" class="block px-3 py-2 rounded-md text-base font-medium hover:bg-brand-navy-light hover:text-brand-green">Galeri Proyek</a>
             <a href="#testimoni" class="block px-3 py-2 rounded-md text-base font-medium hover:bg-brand-navy-light hover:text-brand-green">Testimoni</a>
             <a href="#faq" class="block px-3 py-2 rounded-md text-base font-medium hover:bg-brand-navy-light hover:text-brand-green">FAQ</a>
-            <a href="https://wa.me/628123456789" target="_blank" class="block w-full text-center bg-brand-green hover:bg-brand-green-hover text-white text-base font-semibold px-4 py-3 rounded-md mt-4 transition-all">
+            <a href="https://wa.me/6281385404000?text=Halo%20Rootera%20Plumbing%2C%20saya%20ingin%20berkonsultasi%20mengenai%20perbaikan%20saluran%20air%20atau%20pipa%20bocor." target="_blank" class="block w-full text-center bg-brand-green hover:bg-brand-green-hover text-white text-base font-semibold px-4 py-3 rounded-md mt-4 transition-all">
                 <i data-lucide="phone" class="inline w-4 h-4 mr-2"></i> Hubungi Kami
             </a>
         </div>
@@ -61,7 +61,7 @@
             <!-- Left Info Column -->
             <div class="lg:col-span-7 flex flex-col items-start text-left space-y-6 z-10">
                 
-                <!-- Badge: Teknisi Berpengalaman & 24/7 (Modified as requested) -->
+                <!-- Badge: Teknisi Berpengalaman & 24/7 -->
                 <div class="inline-flex items-center bg-white/10 backdrop-blur-md border border-white/20 rounded-full px-4 py-1.5 text-xs sm:text-sm font-semibold text-brand-green tracking-wide">
                     <span class="flex h-2 w-2 relative mr-2">
                         <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-brand-green opacity-75"></span>
@@ -86,7 +86,7 @@
 
                 <!-- CTA Buttons -->
                 <div class="flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
-                    <a href="https://wa.me/628123456789" target="_blank" class="inline-flex items-center justify-center bg-brand-green hover:bg-brand-green-hover text-white text-base font-bold px-8 py-4 rounded-lg transition-all shadow-lg hover:shadow-brand-green/30 hover:-translate-y-0.5">
+                    <a href="https://wa.me/6281385404000?text=Halo%20Rootera%20Plumbing%2C%20saya%20ingin%20memesan%20layanan%20plumbing%20dan%20meminta%20estimasi%20biaya." target="_blank" class="inline-flex items-center justify-center bg-brand-green hover:bg-brand-green-hover text-white text-base font-bold px-8 py-4 rounded-lg transition-all shadow-lg hover:shadow-brand-green/30 hover:-translate-y-0.5">
                         <i data-lucide="message-square" class="w-5 h-5 mr-2"></i>
                         Hubungi via WhatsApp
                     </a>
@@ -97,7 +97,7 @@
                 </div>
             </div>
 
-            <!-- Right Visual Column (Premium Plumber Photo Container) -->
+            <!-- Right Visual Column -->
             <div class="lg:col-span-5 relative w-full max-w-md lg:max-w-none mx-auto">
                 <div class="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-white/10 aspect-[4/3] sm:aspect-square lg:aspect-[4/5]">
                     <!-- Plumber Image -->
@@ -120,9 +120,9 @@
             </div>
         </div>
 
-        <!-- 3. STATS BAR (Placed inside container with top margin) -->
+        <!-- 3. STATS BAR -->
         <div class="mt-16 lg:mt-24">
-            <div class="bg-brand-navy-dark/85 backdrop-blur-lg border border-white/10 rounded-2xl shadow-2xl p-6 sm:p-8">
+            <div class="bg-[#0A1D30]/85 backdrop-blur-lg border border-white/10 rounded-2xl shadow-2xl p-6 sm:p-8">
                 <div class="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-4 divide-y-0 divide-x-0 md:divide-x divide-white/10">
                     <!-- Stat 1 -->
                     <div class="text-center px-4">
@@ -150,15 +150,7 @@
     </div>
 </section>
 
-<!-- 4. EMERGENCY ALERT BANNER (Ribbon below Hero Section) -->
-<div class="bg-brand-green text-white py-3 text-center text-xs sm:text-sm font-semibold tracking-wide relative z-10 shadow-md">
-    <div class="max-w-7xl mx-auto px-4 flex items-center justify-center gap-2">
-        <i data-lucide="alert-triangle" class="w-4 h-4 animate-pulse"></i>
-        <span>Layanan Plumbing Darurat 24 Jam - Siap Datang Kapan Saja Hubungi: <strong>0813-8540-4000</strong></span>
-    </div>
-</div>
-
-<!-- SIMPLE INTERACTIVE SCRIPT FOR MOBILE MENU TOGGLE -->
+<!-- MOBILE MENU TOGGLE SCRIPT -->
 <script>
     document.addEventListener('DOMContentLoaded', function() {
         const btn = document.getElementById('mobile-menu-btn');
@@ -169,7 +161,6 @@
                 menu.classList.toggle('hidden');
             });
             
-            // Close mobile menu when a link is clicked
             const links = menu.querySelectorAll('a');
             links.forEach(link => {
                 link.addEventListener('click', function() {

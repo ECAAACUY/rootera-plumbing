@@ -1,25 +1,34 @@
-<x-layout>
+<x-layouts.app>
     <!-- 1. HERO SECTION & HEADER -->
-    <x-hero />
+    <x-sections.hero />
 
-    <!-- 2. SERVICE OVERVIEW SECTION -->
-    <x-service-overview />
+    <!-- 2. EMERGENCY BANNER -->
+    <x-sections.emergency-banner />
 
-    <!-- 3. SERVICE CARDS SECTION -->
-    <x-service-cards />
+    <!-- 3. SERVICE OVERVIEW SECTION -->
+    <x-sections.service-overview />
 
-    <!-- 4. STATS SECTION -->
-    <x-stats-section />
+    <!-- 4. SERVICE CARDS SECTION -->
+    <x-sections.service-cards />
 
-    <!-- 5. PROCESS SECTION -->
-    <x-process-section />
+    <!-- 5. STATS SECTION -->
+    <x-sections.stats-section />
 
-    <!-- 6. GALLERY/PORTFOLIO SECTION -->
-    <x-gallery />
+    <!-- 6. PROCESS SECTION -->
+    <x-sections.process-section />
 
-    <!-- 7. TESTIMONIALS & FAQ SECTION -->
-    <x-testimonials-faq />
+    <!-- 7. GALLERY/PORTFOLIO SECTION -->
+    <x-sections.gallery />
 
-    <!-- 8. FOOTER SECTION (Includes Pre-Footer CTA) -->
-    <x-footer />
-</x-layout>
+    <!-- 8. TESTIMONIALS SECTION -->
+    <x-sections.testimonials />
+
+    <!-- 9. FAQ SECTION -->
+    <x-sections.faq />
+
+    <!-- 10. FOOTER SECTION (Includes Pre-Footer CTA) -->
+    <x-sections.footer />
+
+    <!-- 11. FLOATING WHATSAPP BUTTON -->
+    <x-ui.floating-wa />
+</x-layouts.app>
